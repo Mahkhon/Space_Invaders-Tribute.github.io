@@ -1,0 +1,254 @@
+body {
+  background-color: black;
+}
+
+#main {
+  background-image: url("images/invader-background.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin: 10px;
+  min-height: 1000px;
+  background-clip: border-box;
+  padding: 10px;
+
+}
+
+p {
+  font-family: Share Tech Mono, monospace;
+}
+
+#title {
+  visibility: hidden;
+  position: relative;
+  margin-right: -600px;
+  float: left;
+}
+
+#nishikado {
+  width: 18%;
+  float:left;
+  padding: 10px;
+}
+
+#wow {
+  width :15%;
+  float: right;
+  padding: 5px;
+}
+.text {
+  margin-top: 100px;
+  display: block;
+  position: absolute;
+}
+
+#tribute-info {
+  position: sticky;
+margin-top: 100px;
+  border: 2px solid yellow;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  width: 75%;
+  min-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tribute-info2 {
+  border: 2px solid yellow;
+  background-color: ivory;
+  margin-top: 10px;
+  padding: 10px;
+  width: 75%;
+  min-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#image-caption {
+  color:green;
+  font-family: Share Tech mono, monospace;
+  width: auto;
+}
+#image-div {
+  background-color: white;
+
+
+
+
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#image {
+
+max-width: 100%;
+height: auto;
+
+}
+
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+#image2 {
+  z-index: 100;
+  position:relative;
+  margin-top: -150px;
+  min-height: 100px;
+
+
+}
+#img_caption2 {
+  display: block;
+  float: top;
+  padding-top: -200px;
+  z-index: 200;
+  color: yellow;
+  text-align: center;
+  visibility: hidden;
+
+}
+
+
+#invaders {
+ position: relative;
+  margin-top: -260px;
+  margin-bottom: 200px;
+ width: 800px;
+ min-width: 30%;
+ z-index: 500;
+
+
+}
+
+#jap-title {
+  z-index: 300;
+  color: maroon;
+
+  padding-left: 40%;
+  margin-bottom: -20px;
+
+}
+
+.blue-invader-grid{
+  display: grid;
+  max-width: 12%;
+  margin:50px;
+  float:left;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                         1fr 1fr 1fr ;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+  -webkit-appearance: none;
+  transform: scale(1.1);
+  display: inline-block;
+  background-color: none;
+  border: 0.1px solid darkslategrey;
+  display: inline-block;
+  position: relative;
+  padding: 2.5em;
+  font-size: 2px;
+  text-align: center;
+}
+.grid-item:hover {
+  border: inherit solid grey;
+  background-color: grey;
+}
+.grid-item:active  {
+  background-color: lightblue;
+}
+
+
+.blue-invader-grid input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px dodgerblue;
+  background-color: lightskyblue;
+}
+
+
+.pink-invader-grid{
+  display: grid;
+  max-width: 12%;
+  float:left;
+  margin: 50px;
+  margin-left: 125px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                         1fr 1fr 1fr  1fr;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.grid-item-pink {
+  -webkit-appearance: none;
+  transform: scale(1.1);
+  display: inline-block;
+  background-color: none;
+  border: 0.1px solid darkslategrey;
+  display: inline-block;
+  position: relative;
+  padding: 2.5em;
+  font-size: 2px;
+  text-align: center;
+}
+
+.grid-item-pink:hover {
+  border: inherit solid grey;
+  background-color: grey;
+}
+.grid-item-pink:active  {
+  background-color: maroon;
+}
+
+
+.pink-invader-grid input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px palevioletred;
+  background-color: hotpink;
+}
+
+.green-grid{
+  display: grid;
+  max-width: 12%;
+  float:left;
+  margin: 50px;
+  margin-left: 150px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                         1fr 1fr;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+  .grid-item-green {
+  -webkit-appearance: none;
+  transform: scale(1.1);
+  display: inline-block;
+  background-color: none;
+  border: 0.1px solid darkslategrey;
+  display: inline-block;
+  position: relative;
+  padding: 2.5em;
+  font-size: 2px;
+  text-align: center;
+
+}
+
+.grid-item-green:hover {
+  border: inherit solid grey;
+  background-color: grey;
+}
+.grid-item-green:active  {
+  background-color: maroon;
+}
+
+
+.green-grid input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px mediumseagreen;
+  background-color: lightgreen;
+}
